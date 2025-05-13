@@ -10,7 +10,7 @@
 
 ```
 aws cloudtrail lookup-events \
-  --lookup-attributes AttributeKey=EventName,AttributeValue=CreateBucket \
+  --lookup-attributes AttributeKey=EventName,AttributeValue=ACreateNetworkInterface \
   --output json | jq -r '
   .Events[] | 
     .CloudTrailEvent |= fromjson |

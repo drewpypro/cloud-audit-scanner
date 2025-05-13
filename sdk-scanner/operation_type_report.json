@@ -1,0 +1,4762 @@
+{
+  "report_generated": "2025-05-12T23:47:35.636714",
+  "aws": {
+    "total_services": 404,
+    "total_operations": 16757,
+    "by_operation_type": {
+      "ACTION": 1094,
+      "CREATE": 2482,
+      "DELETE": 2213,
+      "READ": 6955,
+      "EXECUTE": 441,
+      "STOP": 310,
+      "TAG": 567,
+      "VALIDATE": 78,
+      "UPDATE": 1821,
+      "ASSOCIATE": 214,
+      "DISASSOCIATE": 217,
+      "DISABLE": 86,
+      "ENABLE": 101,
+      "TRANSFER": 128,
+      "COPY": 37,
+      "PROMOTE": 13
+    },
+    "services": {
+      "evidently": {
+        "total_operations": 38,
+        "by_operation_type": {
+          "ACTION": 2,
+          "CREATE": 6,
+          "DELETE": 5,
+          "READ": 13,
+          "EXECUTE": 2,
+          "STOP": 2,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 5
+        }
+      },
+      "voice-id": {
+        "total_operations": 29,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 2,
+          "DELETE": 4,
+          "READ": 13,
+          "DISASSOCIATE": 1,
+          "ACTION": 2,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "macie2": {
+        "total_operations": 81,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 9,
+          "DELETE": 5,
+          "READ": 41,
+          "DISABLE": 2,
+          "DISASSOCIATE": 3,
+          "ENABLE": 2,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 12
+        }
+      },
+      "launch-wizard": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 8,
+          "TAG": 2
+        }
+      },
+      "sms": {
+        "total_operations": 35,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 7,
+          "DISASSOCIATE": 1,
+          "ACTION": 4,
+          "READ": 10,
+          "TRANSFER": 2,
+          "EXECUTE": 3,
+          "STOP": 1,
+          "UPDATE": 2
+        }
+      },
+      "redshift-data": {
+        "total_operations": 11,
+        "by_operation_type": {
+          "ACTION": 1,
+          "STOP": 1,
+          "READ": 8,
+          "EXECUTE": 1
+        }
+      },
+      "stepfunctions": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 4,
+          "READ": 15,
+          "ACTION": 5,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "VALIDATE": 2,
+          "UPDATE": 3
+        }
+      },
+      "appconfig": {
+        "total_operations": 45,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 7,
+          "READ": 19,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 7,
+          "VALIDATE": 1
+        }
+      },
+      "servicecatalog": {
+        "total_operations": 90,
+        "by_operation_type": {
+          "ACTION": 8,
+          "ASSOCIATE": 5,
+          "COPY": 1,
+          "CREATE": 9,
+          "DELETE": 9,
+          "READ": 39,
+          "DISABLE": 1,
+          "DISASSOCIATE": 5,
+          "ENABLE": 1,
+          "EXECUTE": 2,
+          "TRANSFER": 1,
+          "UPDATE": 9
+        }
+      },
+      "oam": {
+        "total_operations": 15,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "kinesis": {
+        "total_operations": 35,
+        "by_operation_type": {
+          "CREATE": 6,
+          "ACTION": 5,
+          "DELETE": 4,
+          "READ": 12,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "gamelift": {
+        "total_operations": 118,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 20,
+          "DELETE": 18,
+          "READ": 50,
+          "EXECUTE": 4,
+          "STOP": 4,
+          "TAG": 2,
+          "UPDATE": 14,
+          "VALIDATE": 1
+        }
+      },
+      "elb": {
+        "total_operations": 29,
+        "by_operation_type": {
+          "CREATE": 7,
+          "ACTION": 2,
+          "ASSOCIATE": 1,
+          "DELETE": 5,
+          "READ": 7,
+          "DISASSOCIATE": 1,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "UPDATE": 4
+        }
+      },
+      "athena": {
+        "total_operations": 68,
+        "by_operation_type": {
+          "ACTION": 3,
+          "STOP": 3,
+          "CREATE": 8,
+          "DELETE": 7,
+          "TRANSFER": 2,
+          "READ": 33,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "marketplace-reporting": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "READ": 1
+        }
+      },
+      "marketplace-catalog": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "ACTION": 1,
+          "STOP": 1,
+          "DELETE": 1,
+          "READ": 6,
+          "CREATE": 1,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "wellarchitected": {
+        "total_operations": 72,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 9,
+          "DELETE": 8,
+          "DISASSOCIATE": 2,
+          "TRANSFER": 2,
+          "READ": 33,
+          "TAG": 2,
+          "UPDATE": 11,
+          "PROMOTE": 3
+        }
+      },
+      "glacier": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "ACTION": 8,
+          "CREATE": 4,
+          "DELETE": 5,
+          "READ": 13,
+          "UPDATE": 3
+        }
+      },
+      "groundstation": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 5,
+          "DELETE": 4,
+          "READ": 16,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "dynamodbstreams": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "READ": 4
+        }
+      },
+      "identitystore": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 10,
+          "ACTION": 1,
+          "UPDATE": 2
+        }
+      },
+      "iotfleetwise": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 2,
+          "CREATE": 10,
+          "DELETE": 7,
+          "DISASSOCIATE": 1,
+          "READ": 25,
+          "TRANSFER": 2,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "textract": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 10,
+          "EXECUTE": 4,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "kendra-ranking": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "deadline": {
+        "total_operations": 113,
+        "by_operation_type": {
+          "ASSOCIATE": 4,
+          "ACTION": 6,
+          "COPY": 1,
+          "CREATE": 14,
+          "DELETE": 13,
+          "DISASSOCIATE": 4,
+          "READ": 52,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 16
+        }
+      },
+      "robomaker": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "ACTION": 4,
+          "STOP": 5,
+          "CREATE": 12,
+          "DELETE": 6,
+          "READ": 24,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "b2bi": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 4,
+          "ACTION": 1,
+          "READ": 10,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "VALIDATE": 3,
+          "UPDATE": 4
+        }
+      },
+      "bcm-pricing-calculator": {
+        "total_operations": 36,
+        "by_operation_type": {
+          "ACTION": 9,
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 15,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "transcribe": {
+        "total_operations": 43,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 9,
+          "READ": 19,
+          "EXECUTE": 4,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "emr-serverless": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 7,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "privatenetworks": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "ACTION": 3,
+          "ENABLE": 2,
+          "CREATE": 2,
+          "DISABLE": 1,
+          "DELETE": 2,
+          "READ": 11,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "redshift-serverless": {
+        "total_operations": 63,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 10,
+          "DELETE": 9,
+          "READ": 29,
+          "TRANSFER": 4,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "pca-connector-ad": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 11,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "outposts": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 18,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "efs": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "CREATE": 9,
+          "DELETE": 6,
+          "READ": 11,
+          "UPDATE": 3,
+          "TAG": 2
+        }
+      },
+      "apigateway": {
+        "total_operations": 124,
+        "by_operation_type": {
+          "CREATE": 22,
+          "DELETE": 22,
+          "ACTION": 4,
+          "READ": 47,
+          "TRANSFER": 3,
+          "TAG": 2,
+          "VALIDATE": 2,
+          "UPDATE": 22
+        }
+      },
+      "devicefarm": {
+        "total_operations": 77,
+        "by_operation_type": {
+          "CREATE": 9,
+          "DELETE": 9,
+          "READ": 42,
+          "ACTION": 4,
+          "STOP": 3,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "kinesisanalytics": {
+        "total_operations": 20,
+        "by_operation_type": {
+          "CREATE": 6,
+          "DELETE": 5,
+          "READ": 3,
+          "ACTION": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "sagemaker-runtime": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "EXECUTE": 3
+        }
+      },
+      "connectparticipant": {
+        "total_operations": 11,
+        "by_operation_type": {
+          "STOP": 1,
+          "ACTION": 3,
+          "CREATE": 1,
+          "READ": 4,
+          "DISASSOCIATE": 1,
+          "EXECUTE": 1
+        }
+      },
+      "medialive": {
+        "total_operations": 120,
+        "by_operation_type": {
+          "ACTION": 11,
+          "STOP": 4,
+          "CREATE": 18,
+          "DELETE": 18,
+          "READ": 43,
+          "EXECUTE": 7,
+          "UPDATE": 19
+        }
+      },
+      "mq": {
+        "total_operations": 24,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 11,
+          "PROMOTE": 1,
+          "ACTION": 1,
+          "UPDATE": 3
+        }
+      },
+      "greengrass": {
+        "total_operations": 92,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 19,
+          "DELETE": 8,
+          "DISASSOCIATE": 2,
+          "READ": 45,
+          "ACTION": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 11
+        }
+      },
+      "iotsecuretunneling": {
+        "total_operations": 8,
+        "by_operation_type": {
+          "ACTION": 3,
+          "READ": 3,
+          "TAG": 2
+        }
+      },
+      "directconnect": {
+        "total_operations": 63,
+        "by_operation_type": {
+          "ACTION": 11,
+          "ASSOCIATE": 4,
+          "CREATE": 10,
+          "DELETE": 8,
+          "READ": 19,
+          "DISASSOCIATE": 2,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "rds-data": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "ACTION": 4,
+          "EXECUTE": 2
+        }
+      },
+      "securitylake": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "CREATE": 8,
+          "DELETE": 8,
+          "READ": 9,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "service-quotas": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "DELETE": 1,
+          "DISASSOCIATE": 1,
+          "READ": 12,
+          "CREATE": 1,
+          "ACTION": 1,
+          "TAG": 2
+        }
+      },
+      "proton": {
+        "total_operations": 87,
+        "by_operation_type": {
+          "ACTION": 3,
+          "STOP": 4,
+          "CREATE": 12,
+          "DELETE": 12,
+          "READ": 40,
+          "TAG": 2,
+          "UPDATE": 14
+        }
+      },
+      "ram": {
+        "total_operations": 34,
+        "by_operation_type": {
+          "ACTION": 3,
+          "ASSOCIATE": 2,
+          "CREATE": 3,
+          "DELETE": 3,
+          "DISASSOCIATE": 2,
+          "ENABLE": 1,
+          "READ": 14,
+          "PROMOTE": 2,
+          "UPDATE": 2,
+          "TAG": 2
+        }
+      },
+      "marketplacecommerceanalytics": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "ACTION": 1,
+          "EXECUTE": 1
+        }
+      },
+      "mediaconvert": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "STOP": 1,
+          "CREATE": 5,
+          "DELETE": 4,
+          "READ": 13,
+          "DISASSOCIATE": 1,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "translate": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 2,
+          "READ": 8,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "ACTION": 2,
+          "UPDATE": 1
+        }
+      },
+      "taxsettings": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "ACTION": 3,
+          "DELETE": 2,
+          "READ": 7,
+          "CREATE": 4
+        }
+      },
+      "location": {
+        "total_operations": 60,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 9,
+          "CREATE": 7,
+          "DELETE": 6,
+          "READ": 27,
+          "DISASSOCIATE": 1,
+          "TAG": 2,
+          "UPDATE": 6,
+          "VALIDATE": 1
+        }
+      },
+      "qconnect": {
+        "total_operations": 91,
+        "by_operation_type": {
+          "ENABLE": 1,
+          "CREATE": 17,
+          "DISABLE": 1,
+          "DELETE": 17,
+          "READ": 36,
+          "ACTION": 4,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 11
+        }
+      },
+      "ssm": {
+        "total_operations": 146,
+        "by_operation_type": {
+          "CREATE": 18,
+          "ASSOCIATE": 1,
+          "STOP": 3,
+          "DELETE": 18,
+          "READ": 78,
+          "DISASSOCIATE": 1,
+          "TAG": 1,
+          "UPDATE": 15,
+          "ACTION": 5,
+          "EXECUTE": 6
+        }
+      },
+      "codeartifact": {
+        "total_operations": 48,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "COPY": 1,
+          "CREATE": 6,
+          "DELETE": 7,
+          "READ": 24,
+          "DISASSOCIATE": 1,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "dms": {
+        "total_operations": 112,
+        "by_operation_type": {
+          "CREATE": 12,
+          "ACTION": 7,
+          "STOP": 4,
+          "DELETE": 16,
+          "READ": 45,
+          "TRANSFER": 2,
+          "UPDATE": 12,
+          "EXECUTE": 13,
+          "VALIDATE": 1
+        }
+      },
+      "medical-imaging": {
+        "total_operations": 18,
+        "by_operation_type": {
+          "COPY": 1,
+          "CREATE": 1,
+          "DELETE": 2,
+          "READ": 10,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "amplify": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "CREATE": 6,
+          "DELETE": 6,
+          "ACTION": 1,
+          "READ": 15,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "workdocs": {
+        "total_operations": 44,
+        "by_operation_type": {
+          "ACTION": 2,
+          "ENABLE": 1,
+          "CREATE": 7,
+          "DISABLE": 1,
+          "DELETE": 11,
+          "READ": 17,
+          "TRANSFER": 1,
+          "UPDATE": 4
+        }
+      },
+      "elasticache": {
+        "total_operations": 75,
+        "by_operation_type": {
+          "CREATE": 12,
+          "ENABLE": 1,
+          "ACTION": 13,
+          "COPY": 2,
+          "DELETE": 12,
+          "READ": 21,
+          "DISASSOCIATE": 1,
+          "TRANSFER": 1,
+          "UPDATE": 9,
+          "EXECUTE": 1,
+          "VALIDATE": 2
+        }
+      },
+      "wisdom": {
+        "total_operations": 41,
+        "by_operation_type": {
+          "CREATE": 6,
+          "DELETE": 7,
+          "READ": 19,
+          "ACTION": 2,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "connect": {
+        "total_operations": 282,
+        "by_operation_type": {
+          "ENABLE": 1,
+          "ASSOCIATE": 14,
+          "ACTION": 16,
+          "CREATE": 30,
+          "DISABLE": 1,
+          "DELETE": 27,
+          "READ": 106,
+          "DISASSOCIATE": 13,
+          "TRANSFER": 1,
+          "STOP": 5,
+          "COPY": 1,
+          "EXECUTE": 12,
+          "TAG": 4,
+          "UPDATE": 51
+        }
+      },
+      "personalize": {
+        "total_operations": 71,
+        "by_operation_type": {
+          "CREATE": 15,
+          "DELETE": 9,
+          "READ": 37,
+          "EXECUTE": 1,
+          "STOP": 2,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "elasticbeanstalk": {
+        "total_operations": 47,
+        "by_operation_type": {
+          "ACTION": 7,
+          "ASSOCIATE": 1,
+          "VALIDATE": 2,
+          "CREATE": 6,
+          "DELETE": 6,
+          "READ": 18,
+          "DISASSOCIATE": 1,
+          "UPDATE": 6
+        }
+      },
+      "synthetics": {
+        "total_operations": 22,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 10,
+          "DISASSOCIATE": 1,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "acm": {
+        "total_operations": 15,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 5,
+          "TRANSFER": 2,
+          "ACTION": 3,
+          "UPDATE": 1
+        }
+      },
+      "appintegrations": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 3,
+          "READ": 10,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "dax": {
+        "total_operations": 21,
+        "by_operation_type": {
+          "CREATE": 3,
+          "ACTION": 3,
+          "DELETE": 3,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "appsync": {
+        "total_operations": 74,
+        "by_operation_type": {
+          "ASSOCIATE": 3,
+          "CREATE": 11,
+          "DELETE": 10,
+          "DISASSOCIATE": 3,
+          "ACTION": 3,
+          "READ": 28,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 11
+        }
+      },
+      "inspector-scan": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "ACTION": 1
+        }
+      },
+      "connect-contact-lens": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "READ": 1
+        }
+      },
+      "iot-jobs-data": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "READ": 2,
+          "EXECUTE": 2,
+          "UPDATE": 1
+        }
+      },
+      "organizations": {
+        "total_operations": 55,
+        "by_operation_type": {
+          "ACTION": 6,
+          "ASSOCIATE": 1,
+          "STOP": 1,
+          "CREATE": 7,
+          "DELETE": 6,
+          "READ": 24,
+          "DISASSOCIATE": 1,
+          "DISABLE": 2,
+          "ENABLE": 3,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "route53domains": {
+        "total_operations": 34,
+        "by_operation_type": {
+          "ACTION": 9,
+          "ASSOCIATE": 1,
+          "STOP": 1,
+          "VALIDATE": 2,
+          "DELETE": 2,
+          "DISABLE": 2,
+          "DISASSOCIATE": 1,
+          "ENABLE": 2,
+          "READ": 9,
+          "CREATE": 1,
+          "UPDATE": 4
+        }
+      },
+      "opensearchserverless": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 6,
+          "DELETE": 6,
+          "READ": 12,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "iotevents-data": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "ACTION": 8,
+          "READ": 4
+        }
+      },
+      "mgh": {
+        "total_operations": 21,
+        "by_operation_type": {
+          "ASSOCIATE": 3,
+          "CREATE": 2,
+          "DELETE": 1,
+          "READ": 9,
+          "DISASSOCIATE": 3,
+          "TRANSFER": 1,
+          "ACTION": 2
+        }
+      },
+      "support-app": {
+        "total_operations": 10,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 3,
+          "UPDATE": 1
+        }
+      },
+      "keyspaces": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 8,
+          "TRANSFER": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "cleanrooms": {
+        "total_operations": 84,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 11,
+          "DELETE": 12,
+          "READ": 39,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 13
+        }
+      },
+      "chime-sdk-messaging": {
+        "total_operations": 51,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 4,
+          "CREATE": 8,
+          "DELETE": 7,
+          "READ": 24,
+          "DISASSOCIATE": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "apptest": {
+        "total_operations": 24,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 4,
+          "READ": 11,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "appfabric": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "ACTION": 1,
+          "ASSOCIATE": 1,
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 9,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "geo-places": {
+        "total_operations": 7,
+        "by_operation_type": {
+          "ACTION": 4,
+          "READ": 3
+        }
+      },
+      "license-manager": {
+        "total_operations": 50,
+        "by_operation_type": {
+          "ACTION": 3,
+          "VALIDATE": 3,
+          "CREATE": 8,
+          "DELETE": 5,
+          "READ": 25,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "bedrock-agent-runtime": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 2,
+          "ACTION": 4,
+          "READ": 10,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "mediapackagev2": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 6,
+          "DELETE": 5,
+          "READ": 11,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "qldb": {
+        "total_operations": 20,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 11,
+          "TRANSFER": 1,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "network-firewall": {
+        "total_operations": 45,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 17,
+          "DISASSOCIATE": 1,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 10
+        }
+      },
+      "chatbot": {
+        "total_operations": 34,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 4,
+          "DELETE": 8,
+          "READ": 13,
+          "DISASSOCIATE": 1,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "rum": {
+        "total_operations": 20,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 4,
+          "DELETE": 3,
+          "READ": 6,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "connectcampaignsv2": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 7,
+          "READ": 8,
+          "STOP": 2,
+          "ACTION": 1,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "opsworkscm": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 6,
+          "DISASSOCIATE": 1,
+          "TRANSFER": 2,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "sns": {
+        "total_operations": 42,
+        "by_operation_type": {
+          "CREATE": 6,
+          "VALIDATE": 2,
+          "ACTION": 6,
+          "DELETE": 5,
+          "READ": 16,
+          "UPDATE": 5,
+          "TAG": 2
+        }
+      },
+      "sso-admin": {
+        "total_operations": 73,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 14,
+          "DELETE": 12,
+          "READ": 36,
+          "DISASSOCIATE": 2,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "eks-auth": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "ACTION": 1
+        }
+      },
+      "cloudcontrol": {
+        "total_operations": 8,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 4,
+          "UPDATE": 1
+        }
+      },
+      "kinesis-video-media": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "READ": 1
+        }
+      },
+      "braket": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 2,
+          "READ": 7,
+          "TAG": 2
+        }
+      },
+      "lakeformation": {
+        "total_operations": 60,
+        "by_operation_type": {
+          "CREATE": 8,
+          "ACTION": 7,
+          "STOP": 1,
+          "DELETE": 8,
+          "READ": 27,
+          "EXECUTE": 2,
+          "UPDATE": 7
+        }
+      },
+      "swf": {
+        "total_operations": 39,
+        "by_operation_type": {
+          "ACTION": 19,
+          "DELETE": 3,
+          "READ": 11,
+          "CREATE": 3,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "auditmanager": {
+        "total_operations": 62,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 5,
+          "CREATE": 6,
+          "DELETE": 7,
+          "DISASSOCIATE": 1,
+          "READ": 30,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 8,
+          "VALIDATE": 1
+        }
+      },
+      "billing": {
+        "total_operations": 10,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 5,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "detective": {
+        "total_operations": 29,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 11,
+          "DISABLE": 1,
+          "DISASSOCIATE": 1,
+          "ENABLE": 1,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "freetier": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "READ": 1
+        }
+      },
+      "cloudtrail-data": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "CREATE": 1
+        }
+      },
+      "ivschat": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "DISASSOCIATE": 1,
+          "READ": 5,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "importexport": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 1,
+          "READ": 3,
+          "UPDATE": 1
+        }
+      },
+      "servicediscovery": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 4,
+          "ACTION": 2,
+          "READ": 11,
+          "TAG": 2,
+          "UPDATE": 6
+        }
+      },
+      "support": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "CREATE": 3,
+          "READ": 11,
+          "ACTION": 2
+        }
+      },
+      "lexv2-models": {
+        "total_operations": 102,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 13,
+          "DELETE": 15,
+          "READ": 51,
+          "EXECUTE": 5,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 10
+        }
+      },
+      "billingconductor": {
+        "total_operations": 32,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 2,
+          "CREATE": 4,
+          "DELETE": 4,
+          "DISASSOCIATE": 2,
+          "READ": 12,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "migrationhub-config": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 2
+        }
+      },
+      "kendra": {
+        "total_operations": 66,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 7,
+          "CREATE": 9,
+          "DELETE": 8,
+          "READ": 26,
+          "DISASSOCIATE": 2,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "appflow": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 10,
+          "ACTION": 1,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "pi": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 9,
+          "TAG": 2
+        }
+      },
+      "signer": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "CREATE": 2,
+          "STOP": 1,
+          "READ": 9,
+          "DELETE": 1,
+          "ACTION": 3,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "pinpoint": {
+        "total_operations": 122,
+        "by_operation_type": {
+          "CREATE": 14,
+          "DELETE": 24,
+          "READ": 53,
+          "ACTION": 4,
+          "TAG": 2,
+          "UPDATE": 24,
+          "VALIDATE": 1
+        }
+      },
+      "resource-explorer-2": {
+        "total_operations": 24,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 1,
+          "CREATE": 2,
+          "DELETE": 2,
+          "DISASSOCIATE": 1,
+          "READ": 13,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "timestream-query": {
+        "total_operations": 15,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 5,
+          "EXECUTE": 1,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "elastictranscoder": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 7,
+          "VALIDATE": 1,
+          "UPDATE": 3
+        }
+      },
+      "mediastore": {
+        "total_operations": 21,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 7,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2
+        }
+      },
+      "snow-device-management": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 1,
+          "READ": 9,
+          "TAG": 2
+        }
+      },
+      "dlm": {
+        "total_operations": 8,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "iotwireless": {
+        "total_operations": 112,
+        "by_operation_type": {
+          "ASSOCIATE": 7,
+          "STOP": 1,
+          "CREATE": 12,
+          "DELETE": 13,
+          "DISASSOCIATE": 7,
+          "READ": 45,
+          "ACTION": 4,
+          "EXECUTE": 6,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 14
+        }
+      },
+      "entityresolution": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "CREATE": 6,
+          "ACTION": 1,
+          "DELETE": 5,
+          "READ": 17,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "verifiedpermissions": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 5,
+          "DELETE": 4,
+          "READ": 10,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "cloudtrail": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "CREATE": 9,
+          "STOP": 4,
+          "DELETE": 7,
+          "READ": 23,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "ACTION": 2,
+          "TRANSFER": 1,
+          "EXECUTE": 5,
+          "UPDATE": 4
+        }
+      },
+      "backup": {
+        "total_operations": 94,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 13,
+          "DELETE": 11,
+          "READ": 50,
+          "DISASSOCIATE": 2,
+          "TRANSFER": 1,
+          "EXECUTE": 4,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "servicecatalog-appregistry": {
+        "total_operations": 24,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 3,
+          "DELETE": 2,
+          "DISASSOCIATE": 2,
+          "READ": 10,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "codecatalyst": {
+        "total_operations": 38,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 19,
+          "EXECUTE": 3,
+          "STOP": 2,
+          "UPDATE": 3,
+          "VALIDATE": 1
+        }
+      },
+      "pca-connector-scep": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 6,
+          "TAG": 2
+        }
+      },
+      "savingsplans": {
+        "total_operations": 10,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 5,
+          "ACTION": 1,
+          "TAG": 2
+        }
+      },
+      "qapps": {
+        "total_operations": 35,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 4,
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 10,
+          "DISASSOCIATE": 2,
+          "TRANSFER": 2,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 6
+        }
+      },
+      "kinesis-video-signaling": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "READ": 1,
+          "ACTION": 1
+        }
+      },
+      "route53-recovery-control-config": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 11,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "appmesh": {
+        "total_operations": 38,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 7,
+          "READ": 15,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "comprehend": {
+        "total_operations": 85,
+        "by_operation_type": {
+          "ACTION": 16,
+          "CREATE": 6,
+          "DELETE": 5,
+          "READ": 34,
+          "TRANSFER": 1,
+          "EXECUTE": 10,
+          "STOP": 9,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "fsx": {
+        "total_operations": 45,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "STOP": 1,
+          "COPY": 2,
+          "CREATE": 10,
+          "DELETE": 7,
+          "READ": 11,
+          "DISASSOCIATE": 1,
+          "ACTION": 1,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "route53-recovery-cluster": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "READ": 2,
+          "UPDATE": 2
+        }
+      },
+      "accessanalyzer": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "ACTION": 2,
+          "STOP": 1,
+          "VALIDATE": 4,
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 18,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "lex-models": {
+        "total_operations": 42,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 9,
+          "READ": 22,
+          "EXECUTE": 2,
+          "TAG": 2
+        }
+      },
+      "ssm-contacts": {
+        "total_operations": 39,
+        "by_operation_type": {
+          "ACTION": 2,
+          "ENABLE": 1,
+          "CREATE": 5,
+          "DISABLE": 1,
+          "DELETE": 4,
+          "READ": 19,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "logs": {
+        "total_operations": 89,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "STOP": 2,
+          "CREATE": 21,
+          "DELETE": 18,
+          "READ": 34,
+          "DISASSOCIATE": 1,
+          "ACTION": 1,
+          "EXECUTE": 2,
+          "TAG": 4,
+          "VALIDATE": 2,
+          "UPDATE": 3
+        }
+      },
+      "pinpoint-sms-voice-v2": {
+        "total_operations": 90,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 16,
+          "DELETE": 19,
+          "READ": 25,
+          "DISASSOCIATE": 2,
+          "ACTION": 10,
+          "UPDATE": 13,
+          "TAG": 2,
+          "VALIDATE": 1
+        }
+      },
+      "codedeploy": {
+        "total_operations": 47,
+        "by_operation_type": {
+          "CREATE": 8,
+          "ACTION": 9,
+          "DELETE": 7,
+          "READ": 18,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "mgn": {
+        "total_operations": 70,
+        "by_operation_type": {
+          "ACTION": 9,
+          "ASSOCIATE": 2,
+          "UPDATE": 10,
+          "CREATE": 7,
+          "DELETE": 11,
+          "READ": 19,
+          "DISASSOCIATE": 3,
+          "STOP": 2,
+          "EXECUTE": 5,
+          "TAG": 2
+        }
+      },
+      "notifications": {
+        "total_operations": 35,
+        "by_operation_type": {
+          "ASSOCIATE": 3,
+          "CREATE": 3,
+          "DELETE": 3,
+          "DISABLE": 1,
+          "DISASSOCIATE": 3,
+          "ENABLE": 1,
+          "READ": 17,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "waf": {
+        "total_operations": 77,
+        "by_operation_type": {
+          "CREATE": 15,
+          "DELETE": 14,
+          "READ": 34,
+          "TAG": 2,
+          "UPDATE": 12
+        }
+      },
+      "xray": {
+        "total_operations": 38,
+        "by_operation_type": {
+          "ACTION": 1,
+          "STOP": 1,
+          "CREATE": 6,
+          "DELETE": 3,
+          "READ": 20,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "kinesisvideo": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 3,
+          "READ": 14,
+          "EXECUTE": 1,
+          "TAG": 4,
+          "UPDATE": 6
+        }
+      },
+      "storagegateway": {
+        "total_operations": 96,
+        "by_operation_type": {
+          "ENABLE": 1,
+          "CREATE": 13,
+          "ACTION": 7,
+          "ASSOCIATE": 2,
+          "STOP": 3,
+          "DELETE": 12,
+          "READ": 35,
+          "DISASSOCIATE": 2,
+          "DISABLE": 1,
+          "UPDATE": 17,
+          "EXECUTE": 3
+        }
+      },
+      "cloud9": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 5,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "ce": {
+        "total_operations": 44,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 28,
+          "ACTION": 1,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "amplifyuibuilder": {
+        "total_operations": 28,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 3,
+          "ACTION": 2,
+          "TRANSFER": 3,
+          "READ": 10,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "sso": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "READ": 3,
+          "ACTION": 1
+        }
+      },
+      "qldb-session": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "ACTION": 1
+        }
+      },
+      "lookoutequipment": {
+        "total_operations": 49,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 7,
+          "READ": 21,
+          "TRANSFER": 2,
+          "EXECUTE": 3,
+          "STOP": 2,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "personalize-events": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "CREATE": 5
+        }
+      },
+      "mwaa": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 1,
+          "READ": 3,
+          "EXECUTE": 1,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "apprunner": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 6,
+          "DELETE": 6,
+          "READ": 15,
+          "DISASSOCIATE": 1,
+          "STOP": 1,
+          "ACTION": 1,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "securityhub": {
+        "total_operations": 79,
+        "by_operation_type": {
+          "ACTION": 15,
+          "CREATE": 6,
+          "DELETE": 6,
+          "READ": 30,
+          "DISABLE": 3,
+          "DISASSOCIATE": 3,
+          "ENABLE": 3,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "managedblockchain": {
+        "total_operations": 27,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 3,
+          "READ": 13,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "forecast": {
+        "total_operations": 63,
+        "by_operation_type": {
+          "CREATE": 14,
+          "DELETE": 14,
+          "READ": 30,
+          "ACTION": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "pinpoint-sms-voice": {
+        "total_operations": 7,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 1,
+          "ACTION": 1,
+          "UPDATE": 1
+        }
+      },
+      "migrationhubstrategy": {
+        "total_operations": 22,
+        "by_operation_type": {
+          "READ": 15,
+          "CREATE": 1,
+          "EXECUTE": 3,
+          "STOP": 1,
+          "UPDATE": 2
+        }
+      },
+      "cloudsearch": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "ACTION": 6,
+          "CREATE": 1,
+          "DELETE": 5,
+          "READ": 10,
+          "UPDATE": 4
+        }
+      },
+      "codestar-connections": {
+        "total_operations": 27,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 13,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "networkmanager": {
+        "total_operations": 88,
+        "by_operation_type": {
+          "ACTION": 2,
+          "ASSOCIATE": 4,
+          "CREATE": 16,
+          "DELETE": 12,
+          "READ": 35,
+          "DISASSOCIATE": 4,
+          "EXECUTE": 3,
+          "TRANSFER": 1,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "docdb": {
+        "total_operations": 55,
+        "by_operation_type": {
+          "CREATE": 9,
+          "ACTION": 6,
+          "COPY": 2,
+          "DELETE": 10,
+          "READ": 17,
+          "UPDATE": 7,
+          "TRANSFER": 2,
+          "EXECUTE": 1,
+          "STOP": 1
+        }
+      },
+      "iot-data": {
+        "total_operations": 7,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 4,
+          "ACTION": 1,
+          "UPDATE": 1
+        }
+      },
+      "migration-hub-refactor-spaces": {
+        "total_operations": 24,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 11,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "ivs-realtime": {
+        "total_operations": 36,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "DISASSOCIATE": 1,
+          "READ": 18,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "appconfigdata": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "READ": 1,
+          "EXECUTE": 1
+        }
+      },
+      "trustedadvisor": {
+        "total_operations": 11,
+        "by_operation_type": {
+          "ACTION": 1,
+          "READ": 8,
+          "UPDATE": 2
+        }
+      },
+      "apigatewayv2": {
+        "total_operations": 72,
+        "by_operation_type": {
+          "CREATE": 12,
+          "DELETE": 16,
+          "TRANSFER": 2,
+          "ACTION": 2,
+          "READ": 26,
+          "TAG": 2,
+          "UPDATE": 12
+        }
+      },
+      "memorydb": {
+        "total_operations": 43,
+        "by_operation_type": {
+          "ACTION": 4,
+          "COPY": 1,
+          "CREATE": 7,
+          "DELETE": 7,
+          "READ": 16,
+          "TAG": 2,
+          "UPDATE": 6
+        }
+      },
+      "codepipeline": {
+        "total_operations": 43,
+        "by_operation_type": {
+          "ACTION": 7,
+          "CREATE": 10,
+          "DELETE": 4,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "READ": 14,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "bedrock-runtime": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "ACTION": 3,
+          "READ": 2,
+          "EXECUTE": 4
+        }
+      },
+      "databrew": {
+        "total_operations": 44,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 7,
+          "DELETE": 6,
+          "READ": 16,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "observabilityadmin": {
+        "total_operations": 8,
+        "by_operation_type": {
+          "READ": 4,
+          "EXECUTE": 2,
+          "STOP": 2
+        }
+      },
+      "ecr": {
+        "total_operations": 49,
+        "by_operation_type": {
+          "ACTION": 6,
+          "CREATE": 12,
+          "DELETE": 6,
+          "READ": 17,
+          "UPDATE": 3,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "VALIDATE": 1
+        }
+      },
+      "cognito-idp": {
+        "total_operations": 114,
+        "by_operation_type": {
+          "CREATE": 9,
+          "ACTION": 38,
+          "ASSOCIATE": 1,
+          "UPDATE": 17,
+          "DELETE": 10,
+          "READ": 32,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "VALIDATE": 2
+        }
+      },
+      "cloudfront": {
+        "total_operations": 147,
+        "by_operation_type": {
+          "ASSOCIATE": 3,
+          "COPY": 1,
+          "CREATE": 24,
+          "DELETE": 20,
+          "READ": 72,
+          "DISASSOCIATE": 2,
+          "ACTION": 1,
+          "TAG": 2,
+          "VALIDATE": 2,
+          "UPDATE": 20
+        }
+      },
+      "neptune": {
+        "total_operations": 69,
+        "by_operation_type": {
+          "CREATE": 12,
+          "ACTION": 6,
+          "COPY": 3,
+          "DELETE": 13,
+          "READ": 21,
+          "UPDATE": 9,
+          "PROMOTE": 1,
+          "TRANSFER": 2,
+          "EXECUTE": 1,
+          "STOP": 1
+        }
+      },
+      "batch": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 5,
+          "DELETE": 6,
+          "READ": 12,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "tnb": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 5,
+          "DELETE": 4,
+          "READ": 15,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 3,
+          "VALIDATE": 2
+        }
+      },
+      "sso-oidc": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "CREATE": 3,
+          "EXECUTE": 1
+        }
+      },
+      "ses": {
+        "total_operations": 71,
+        "by_operation_type": {
+          "COPY": 1,
+          "CREATE": 10,
+          "DELETE": 11,
+          "READ": 22,
+          "ACTION": 7,
+          "UPDATE": 15,
+          "VALIDATE": 5
+        }
+      },
+      "cost-optimization-hub": {
+        "total_operations": 7,
+        "by_operation_type": {
+          "READ": 5,
+          "UPDATE": 2
+        }
+      },
+      "dsql": {
+        "total_operations": 11,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 4,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "waf-regional": {
+        "total_operations": 81,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 15,
+          "DELETE": 14,
+          "DISASSOCIATE": 1,
+          "READ": 36,
+          "TAG": 2,
+          "UPDATE": 12
+        }
+      },
+      "datazone": {
+        "total_operations": 158,
+        "by_operation_type": {
+          "ACTION": 7,
+          "CREATE": 29,
+          "ASSOCIATE": 1,
+          "STOP": 2,
+          "DELETE": 26,
+          "DISASSOCIATE": 1,
+          "READ": 70,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 18
+        }
+      },
+      "finspace-data": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 5,
+          "DELETE": 2,
+          "DISABLE": 1,
+          "DISASSOCIATE": 1,
+          "ENABLE": 1,
+          "READ": 15,
+          "ACTION": 1,
+          "UPDATE": 4
+        }
+      },
+      "iotevents": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 3,
+          "READ": 13,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "ebs": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "ACTION": 1,
+          "READ": 3,
+          "CREATE": 1,
+          "EXECUTE": 1
+        }
+      },
+      "acm-pca": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 3,
+          "READ": 9,
+          "TRANSFER": 2,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "workspaces-web": {
+        "total_operations": 68,
+        "by_operation_type": {
+          "ASSOCIATE": 7,
+          "CREATE": 9,
+          "DELETE": 9,
+          "DISASSOCIATE": 7,
+          "ACTION": 1,
+          "READ": 24,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "workmail": {
+        "total_operations": 92,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 2,
+          "STOP": 1,
+          "CREATE": 18,
+          "DELETE": 18,
+          "READ": 36,
+          "DISASSOCIATE": 2,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 9
+        }
+      },
+      "cloudformation": {
+        "total_operations": 88,
+        "by_operation_type": {
+          "ENABLE": 2,
+          "ACTION": 10,
+          "STOP": 2,
+          "CREATE": 8,
+          "DISABLE": 2,
+          "DELETE": 6,
+          "READ": 44,
+          "EXECUTE": 3,
+          "TRANSFER": 1,
+          "UPDATE": 8,
+          "VALIDATE": 2
+        }
+      },
+      "controlcatalog": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "READ": 5
+        }
+      },
+      "connectcampaigns": {
+        "total_operations": 22,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 3,
+          "READ": 7,
+          "STOP": 2,
+          "ACTION": 1,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "machinelearning": {
+        "total_operations": 28,
+        "by_operation_type": {
+          "CREATE": 8,
+          "DELETE": 6,
+          "READ": 9,
+          "ACTION": 1,
+          "UPDATE": 4
+        }
+      },
+      "iotfleethub": {
+        "total_operations": 8,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "cloudsearchdomain": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "READ": 1,
+          "ACTION": 1,
+          "CREATE": 1
+        }
+      },
+      "route53-recovery-readiness": {
+        "total_operations": 32,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 16,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "backup-gateway": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 4,
+          "DELETE": 2,
+          "DISASSOCIATE": 1,
+          "READ": 9,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 3
+        }
+      },
+      "autoscaling": {
+        "total_operations": 65,
+        "by_operation_type": {
+          "ASSOCIATE": 4,
+          "ACTION": 8,
+          "STOP": 2,
+          "CREATE": 8,
+          "DELETE": 9,
+          "READ": 22,
+          "DISASSOCIATE": 4,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "EXECUTE": 2,
+          "UPDATE": 4
+        }
+      },
+      "transfer": {
+        "total_operations": 71,
+        "by_operation_type": {
+          "CREATE": 8,
+          "DELETE": 12,
+          "READ": 27,
+          "TRANSFER": 3,
+          "ACTION": 1,
+          "EXECUTE": 5,
+          "STOP": 1,
+          "TAG": 2,
+          "VALIDATE": 2,
+          "UPDATE": 10
+        }
+      },
+      "s3outposts": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3
+        }
+      },
+      "codeguru-reviewer": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 2,
+          "READ": 8,
+          "DISASSOCIATE": 1,
+          "TAG": 2
+        }
+      },
+      "rekognition": {
+        "total_operations": 75,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 10,
+          "COPY": 1,
+          "CREATE": 8,
+          "DELETE": 8,
+          "READ": 29,
+          "DISASSOCIATE": 1,
+          "EXECUTE": 11,
+          "STOP": 2,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "codecommit": {
+        "total_operations": 79,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 16,
+          "CREATE": 10,
+          "DELETE": 6,
+          "READ": 29,
+          "DISASSOCIATE": 1,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 13
+        }
+      },
+      "snowball": {
+        "total_operations": 27,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 5,
+          "READ": 16,
+          "UPDATE": 4
+        }
+      },
+      "ssm-quicksetup": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "sqs": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "CREATE": 2,
+          "STOP": 1,
+          "UPDATE": 3,
+          "DELETE": 4,
+          "READ": 6,
+          "ACTION": 4,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "bedrock-data-automation-runtime": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "READ": 2,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "healthlake": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 7,
+          "EXECUTE": 2,
+          "TAG": 2
+        }
+      },
+      "forecastquery": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "ACTION": 2
+        }
+      },
+      "lookoutmetrics": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "ENABLE": 1,
+          "ACTION": 2,
+          "CREATE": 4,
+          "DISABLE": 1,
+          "DELETE": 2,
+          "READ": 15,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "application-insights": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 17,
+          "TAG": 2,
+          "UPDATE": 6
+        }
+      },
+      "osis": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 6,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1,
+          "VALIDATE": 1
+        }
+      },
+      "secretsmanager": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "ACTION": 2,
+          "STOP": 2,
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 6,
+          "COPY": 1,
+          "TRANSFER": 1,
+          "TAG": 2,
+          "UPDATE": 2,
+          "VALIDATE": 1
+        }
+      },
+      "sts": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "ACTION": 5,
+          "READ": 4
+        }
+      },
+      "sagemaker-edge": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "READ": 2,
+          "ACTION": 1
+        }
+      },
+      "amp": {
+        "total_operations": 29,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 5,
+          "READ": 11,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "redshift": {
+        "total_operations": 139,
+        "by_operation_type": {
+          "ACTION": 14,
+          "CREATE": 21,
+          "ASSOCIATE": 1,
+          "ENABLE": 6,
+          "STOP": 2,
+          "COPY": 1,
+          "DISABLE": 3,
+          "DELETE": 21,
+          "READ": 47,
+          "DISASSOCIATE": 1,
+          "UPDATE": 20,
+          "TRANSFER": 2
+        }
+      },
+      "cur": {
+        "total_operations": 7,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 2,
+          "UPDATE": 1,
+          "CREATE": 1,
+          "TAG": 2
+        }
+      },
+      "codeguruprofiler": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "CREATE": 3,
+          "ACTION": 4,
+          "DELETE": 3,
+          "READ": 10,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "resourcegroupstaggingapi": {
+        "total_operations": 8,
+        "by_operation_type": {
+          "READ": 5,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "chime-sdk-meetings": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "ACTION": 2,
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 4,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "autoscaling-plans": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "UPDATE": 1
+        }
+      },
+      "kinesis-video-webrtc-storage": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "ACTION": 2
+        }
+      },
+      "codestar-notifications": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 2,
+          "READ": 5,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "marketplace-deployment": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "READ": 1,
+          "CREATE": 1,
+          "TAG": 2
+        }
+      },
+      "cloudhsmv2": {
+        "total_operations": 18,
+        "by_operation_type": {
+          "COPY": 1,
+          "CREATE": 3,
+          "DELETE": 4,
+          "READ": 4,
+          "ACTION": 1,
+          "UPDATE": 2,
+          "TRANSFER": 1,
+          "TAG": 2
+        }
+      },
+      "license-manager-user-subscriptions": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 2,
+          "DELETE": 2,
+          "DISASSOCIATE": 1,
+          "READ": 6,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "appstream": {
+        "total_operations": 79,
+        "by_operation_type": {
+          "ASSOCIATE": 4,
+          "ACTION": 3,
+          "COPY": 1,
+          "CREATE": 15,
+          "DELETE": 13,
+          "READ": 21,
+          "DISABLE": 1,
+          "DISASSOCIATE": 4,
+          "ENABLE": 1,
+          "EXECUTE": 3,
+          "STOP": 3,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "geo-maps": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "READ": 5
+        }
+      },
+      "s3control": {
+        "total_operations": 97,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 24,
+          "DELETE": 20,
+          "READ": 44,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "ec2-instance-connect": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "ACTION": 2
+        }
+      },
+      "sdb": {
+        "total_operations": 10,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 2
+        }
+      },
+      "neptunedata": {
+        "total_operations": 43,
+        "by_operation_type": {
+          "STOP": 6,
+          "CREATE": 1,
+          "DELETE": 3,
+          "EXECUTE": 10,
+          "READ": 21,
+          "ACTION": 2
+        }
+      },
+      "invoicing": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "lexv2-runtime": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 1,
+          "CREATE": 1,
+          "ACTION": 2,
+          "EXECUTE": 1
+        }
+      },
+      "managedblockchain-query": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "ACTION": 1,
+          "READ": 8
+        }
+      },
+      "cloudwatch": {
+        "total_operations": 38,
+        "by_operation_type": {
+          "DELETE": 5,
+          "READ": 16,
+          "DISABLE": 2,
+          "ENABLE": 2,
+          "CREATE": 8,
+          "UPDATE": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2
+        }
+      },
+      "config": {
+        "total_operations": 97,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 5,
+          "DELETE": 16,
+          "READ": 51,
+          "DISASSOCIATE": 1,
+          "CREATE": 16,
+          "EXECUTE": 4,
+          "STOP": 1,
+          "TAG": 2
+        }
+      },
+      "schemas": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 13,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "account": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "ACTION": 1,
+          "DELETE": 1,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "READ": 6,
+          "CREATE": 3,
+          "EXECUTE": 1
+        }
+      },
+      "cloudfront-keyvaluestore": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 3,
+          "CREATE": 1,
+          "UPDATE": 1
+        }
+      },
+      "rbin": {
+        "total_operations": 10,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "route53": {
+        "total_operations": 70,
+        "by_operation_type": {
+          "ENABLE": 2,
+          "ASSOCIATE": 1,
+          "UPDATE": 7,
+          "CREATE": 10,
+          "DISABLE": 2,
+          "DELETE": 9,
+          "DISASSOCIATE": 1,
+          "READ": 37,
+          "VALIDATE": 1
+        }
+      },
+      "cognito-sync": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "ACTION": 3,
+          "DELETE": 1,
+          "READ": 9,
+          "CREATE": 1,
+          "UPDATE": 3
+        }
+      },
+      "ecr-public": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 5,
+          "DELETE": 2,
+          "READ": 9,
+          "UPDATE": 1,
+          "TAG": 2
+        }
+      },
+      "security-ir": {
+        "total_operations": 22,
+        "by_operation_type": {
+          "ACTION": 2,
+          "STOP": 1,
+          "CREATE": 3,
+          "READ": 9,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "mediatailor": {
+        "total_operations": 44,
+        "by_operation_type": {
+          "ACTION": 2,
+          "CREATE": 8,
+          "DELETE": 8,
+          "READ": 17,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "arc-zonal-shift": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 5,
+          "EXECUTE": 1,
+          "UPDATE": 4
+        }
+      },
+      "scheduler": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 5,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "sagemaker-geospatial": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "DELETE": 2,
+          "TRANSFER": 2,
+          "READ": 9,
+          "EXECUTE": 2,
+          "STOP": 2,
+          "TAG": 2
+        }
+      },
+      "neptune-graph": {
+        "total_operations": 32,
+        "by_operation_type": {
+          "STOP": 3,
+          "CREATE": 4,
+          "DELETE": 3,
+          "EXECUTE": 3,
+          "READ": 14,
+          "ACTION": 1,
+          "TRANSFER": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "inspector2": {
+        "total_operations": 59,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 9,
+          "STOP": 3,
+          "CREATE": 4,
+          "DELETE": 2,
+          "READ": 25,
+          "DISABLE": 2,
+          "DISASSOCIATE": 1,
+          "ENABLE": 2,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      },
+      "dynamodb": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "ACTION": 7,
+          "CREATE": 5,
+          "DELETE": 4,
+          "READ": 22,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "EXECUTE": 2,
+          "TRANSFER": 4,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "personalize-runtime": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "READ": 3
+        }
+      },
+      "connectcases": {
+        "total_operations": 39,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 8,
+          "DELETE": 5,
+          "READ": 16,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "application-autoscaling": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "DELETE": 3,
+          "READ": 6,
+          "CREATE": 3,
+          "TAG": 2
+        }
+      },
+      "kafkaconnect": {
+        "total_operations": 18,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 9,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "pinpoint-email": {
+        "total_operations": 42,
+        "by_operation_type": {
+          "CREATE": 17,
+          "DELETE": 4,
+          "READ": 17,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "polly": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 5,
+          "CREATE": 1,
+          "EXECUTE": 1,
+          "ACTION": 1
+        }
+      },
+      "globalaccelerator": {
+        "total_operations": 56,
+        "by_operation_type": {
+          "CREATE": 10,
+          "ACTION": 4,
+          "DELETE": 10,
+          "READ": 22,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "lex-runtime": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 1,
+          "ACTION": 2,
+          "CREATE": 1
+        }
+      },
+      "m2": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 5,
+          "DELETE": 3,
+          "READ": 21,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "controltower": {
+        "total_operations": 28,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "DISABLE": 2,
+          "ENABLE": 2,
+          "READ": 14,
+          "ACTION": 3,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "chime-sdk-identity": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 5,
+          "READ": 12,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "kms": {
+        "total_operations": 53,
+        "by_operation_type": {
+          "STOP": 1,
+          "ASSOCIATE": 1,
+          "CREATE": 5,
+          "ACTION": 15,
+          "DELETE": 3,
+          "READ": 13,
+          "DISABLE": 2,
+          "DISASSOCIATE": 1,
+          "ENABLE": 2,
+          "TRANSFER": 1,
+          "COPY": 1,
+          "TAG": 2,
+          "UPDATE": 4,
+          "VALIDATE": 2
+        }
+      },
+      "datapipeline": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "ENABLE": 1,
+          "CREATE": 3,
+          "DISABLE": 1,
+          "DELETE": 2,
+          "READ": 4,
+          "ACTION": 5,
+          "UPDATE": 2,
+          "VALIDATE": 1
+        }
+      },
+      "frauddetector": {
+        "total_operations": 73,
+        "by_operation_type": {
+          "ACTION": 3,
+          "STOP": 2,
+          "CREATE": 15,
+          "DELETE": 16,
+          "READ": 24,
+          "TAG": 2,
+          "UPDATE": 11
+        }
+      },
+      "workmailmessageflow": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "READ": 1,
+          "CREATE": 1
+        }
+      },
+      "bcm-data-exports": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "ssm-incidents": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 4,
+          "DELETE": 5,
+          "READ": 12,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 6
+        }
+      },
+      "geo-routes": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "ACTION": 5
+        }
+      },
+      "kinesisanalyticsv2": {
+        "total_operations": 33,
+        "by_operation_type": {
+          "CREATE": 9,
+          "DELETE": 7,
+          "READ": 9,
+          "ACTION": 2,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "docdb-elastic": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "ACTION": 1,
+          "COPY": 1,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 7,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "imagebuilder": {
+        "total_operations": 75,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 13,
+          "DELETE": 9,
+          "READ": 39,
+          "TRANSFER": 3,
+          "ACTION": 1,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "ssm-guiconnect": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 1,
+          "UPDATE": 1
+        }
+      },
+      "lookoutvision": {
+        "total_operations": 22,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 9,
+          "ACTION": 1,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "resource-groups": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 2,
+          "DELETE": 1,
+          "READ": 11,
+          "ACTION": 2,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "chime-sdk-voice": {
+        "total_operations": 96,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 2,
+          "CREATE": 19,
+          "DELETE": 15,
+          "DISASSOCIATE": 2,
+          "READ": 37,
+          "TRANSFER": 1,
+          "EXECUTE": 2,
+          "STOP": 2,
+          "TAG": 2,
+          "UPDATE": 11,
+          "VALIDATE": 1
+        }
+      },
+      "workspaces": {
+        "total_operations": 89,
+        "by_operation_type": {
+          "ACTION": 6,
+          "ASSOCIATE": 3,
+          "ENABLE": 1,
+          "COPY": 1,
+          "CREATE": 13,
+          "DELETE": 12,
+          "READ": 26,
+          "DISASSOCIATE": 3,
+          "TRANSFER": 3,
+          "UPDATE": 17,
+          "EXECUTE": 2,
+          "STOP": 2
+        }
+      },
+      "pcs": {
+        "total_operations": 18,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 3,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "bedrock-data-automation": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 5,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "opensearch": {
+        "total_operations": 76,
+        "by_operation_type": {
+          "ACTION": 6,
+          "CREATE": 8,
+          "ASSOCIATE": 2,
+          "ENABLE": 1,
+          "STOP": 2,
+          "DELETE": 9,
+          "READ": 37,
+          "EXECUTE": 2,
+          "UPDATE": 8,
+          "PROMOTE": 1
+        }
+      },
+      "inspector": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "CREATE": 6,
+          "DELETE": 4,
+          "READ": 20,
+          "ACTION": 3,
+          "UPDATE": 2,
+          "EXECUTE": 1,
+          "STOP": 1
+        }
+      },
+      "pricing": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "READ": 5
+        }
+      },
+      "cloudhsm": {
+        "total_operations": 20,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 9,
+          "UPDATE": 3
+        }
+      },
+      "es": {
+        "total_operations": 51,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 5,
+          "ASSOCIATE": 1,
+          "ENABLE": 1,
+          "STOP": 2,
+          "DELETE": 7,
+          "READ": 25,
+          "EXECUTE": 1,
+          "UPDATE": 3,
+          "PROMOTE": 1
+        }
+      },
+      "s3tables": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 8,
+          "DELETE": 6,
+          "READ": 14,
+          "ACTION": 1,
+          "UPDATE": 1
+        }
+      },
+      "iot": {
+        "total_operations": 270,
+        "by_operation_type": {
+          "ACTION": 7,
+          "CREATE": 39,
+          "ASSOCIATE": 6,
+          "STOP": 7,
+          "DELETE": 38,
+          "READ": 122,
+          "DISASSOCIATE": 5,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "UPDATE": 35,
+          "EXECUTE": 4,
+          "TAG": 2,
+          "VALIDATE": 3
+        }
+      },
+      "emr": {
+        "total_operations": 56,
+        "by_operation_type": {
+          "CREATE": 11,
+          "STOP": 2,
+          "DELETE": 8,
+          "READ": 24,
+          "UPDATE": 9,
+          "EXECUTE": 2
+        }
+      },
+      "sagemaker-featurestore-runtime": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "ACTION": 1,
+          "DELETE": 1,
+          "READ": 1,
+          "CREATE": 1
+        }
+      },
+      "payment-cryptography": {
+        "total_operations": 20,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "TRANSFER": 3,
+          "READ": 8,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "resiliencehub": {
+        "total_operations": 63,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 7,
+          "DELETE": 8,
+          "READ": 32,
+          "TRANSFER": 1,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "grafana": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 9,
+          "DISASSOCIATE": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "notificationscontacts": {
+        "total_operations": 9,
+        "by_operation_type": {
+          "ENABLE": 1,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "ACTION": 1,
+          "TAG": 2
+        }
+      },
+      "budgets": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 11,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "customer-profiles": {
+        "total_operations": 70,
+        "by_operation_type": {
+          "CREATE": 13,
+          "ACTION": 4,
+          "DELETE": 11,
+          "READ": 36,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "datasync": {
+        "total_operations": 66,
+        "by_operation_type": {
+          "CREATE": 14,
+          "STOP": 2,
+          "DELETE": 4,
+          "READ": 25,
+          "ACTION": 1,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 16
+        }
+      },
+      "sagemaker": {
+        "total_operations": 358,
+        "by_operation_type": {
+          "CREATE": 69,
+          "ASSOCIATE": 1,
+          "ACTION": 7,
+          "DELETE": 56,
+          "READ": 156,
+          "DISABLE": 1,
+          "DISASSOCIATE": 1,
+          "ENABLE": 1,
+          "TRANSFER": 1,
+          "EXECUTE": 6,
+          "STOP": 16,
+          "UPDATE": 43
+        }
+      },
+      "pipes": {
+        "total_operations": 10,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 3,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "bedrock-agent": {
+        "total_operations": 72,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 10,
+          "DELETE": 11,
+          "DISASSOCIATE": 2,
+          "READ": 29,
+          "ACTION": 3,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 10,
+          "VALIDATE": 1
+        }
+      },
+      "payment-cryptography-data": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "ACTION": 8,
+          "VALIDATE": 4
+        }
+      },
+      "comprehendmedical": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "READ": 10,
+          "ACTION": 6,
+          "EXECUTE": 5,
+          "STOP": 5
+        }
+      },
+      "wafv2": {
+        "total_operations": 54,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "VALIDATE": 1,
+          "CREATE": 8,
+          "DELETE": 8,
+          "READ": 27,
+          "DISASSOCIATE": 1,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "networkmonitor": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 4,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "opsworks": {
+        "total_operations": 74,
+        "by_operation_type": {
+          "ACTION": 6,
+          "ASSOCIATE": 2,
+          "COPY": 1,
+          "CREATE": 11,
+          "DELETE": 10,
+          "READ": 24,
+          "DISASSOCIATE": 2,
+          "UPDATE": 12,
+          "EXECUTE": 2,
+          "STOP": 2,
+          "TAG": 2
+        }
+      },
+      "codeguru-security": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 2,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "timestream-influxdb": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 8,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "artifact": {
+        "total_operations": 7,
+        "by_operation_type": {
+          "READ": 6,
+          "CREATE": 1
+        }
+      },
+      "greengrassv2": {
+        "total_operations": 29,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 3,
+          "STOP": 1,
+          "CREATE": 2,
+          "DELETE": 3,
+          "READ": 15,
+          "DISASSOCIATE": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "ivs": {
+        "total_operations": 35,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 15,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "backupsearch": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "READ": 7,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2
+        }
+      },
+      "emr-containers": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "STOP": 1,
+          "CREATE": 4,
+          "DELETE": 3,
+          "READ": 12,
+          "EXECUTE": 1,
+          "TAG": 2
+        }
+      },
+      "compute-optimizer": {
+        "total_operations": 28,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 17,
+          "TRANSFER": 8,
+          "CREATE": 1,
+          "UPDATE": 1
+        }
+      },
+      "firehose": {
+        "total_operations": 12,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 1,
+          "READ": 3,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "elbv2": {
+        "total_operations": 51,
+        "by_operation_type": {
+          "CREATE": 9,
+          "DELETE": 10,
+          "READ": 19,
+          "UPDATE": 13
+        }
+      },
+      "simspaceweaver": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 2,
+          "READ": 5,
+          "EXECUTE": 3,
+          "STOP": 3,
+          "TAG": 2
+        }
+      },
+      "cleanroomsml": {
+        "total_operations": 58,
+        "by_operation_type": {
+          "STOP": 2,
+          "CREATE": 9,
+          "DELETE": 10,
+          "READ": 30,
+          "EXECUTE": 4,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "kinesis-video-archived-media": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "READ": 6
+        }
+      },
+      "ds": {
+        "total_operations": 70,
+        "by_operation_type": {
+          "ACTION": 5,
+          "CREATE": 13,
+          "STOP": 1,
+          "ASSOCIATE": 1,
+          "DELETE": 10,
+          "READ": 21,
+          "DISABLE": 5,
+          "ENABLE": 5,
+          "TRANSFER": 1,
+          "EXECUTE": 1,
+          "UPDATE": 6,
+          "VALIDATE": 1
+        }
+      },
+      "marketplace-agreement": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "READ": 3
+        }
+      },
+      "rolesanywhere": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "DISABLE": 3,
+          "ENABLE": 3,
+          "READ": 9,
+          "TRANSFER": 1,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "ec2": {
+        "total_operations": 681,
+        "by_operation_type": {
+          "ACTION": 66,
+          "ASSOCIATE": 25,
+          "ENABLE": 23,
+          "STOP": 12,
+          "COPY": 3,
+          "CREATE": 98,
+          "DELETE": 91,
+          "READ": 226,
+          "DISASSOCIATE": 24,
+          "DISABLE": 18,
+          "TRANSFER": 16,
+          "UPDATE": 72,
+          "EXECUTE": 7
+        }
+      },
+      "mturk": {
+        "total_operations": 39,
+        "by_operation_type": {
+          "ACTION": 7,
+          "ASSOCIATE": 1,
+          "CREATE": 6,
+          "DELETE": 3,
+          "DISASSOCIATE": 1,
+          "READ": 16,
+          "UPDATE": 5
+        }
+      },
+      "mediaconnect": {
+        "total_operations": 52,
+        "by_operation_type": {
+          "CREATE": 9,
+          "DELETE": 10,
+          "READ": 16,
+          "ACTION": 3,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 10
+        }
+      },
+      "timestream-write": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 8,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "fis": {
+        "total_operations": 26,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 15,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "mailmanager": {
+        "total_operations": 60,
+        "by_operation_type": {
+          "CREATE": 10,
+          "DELETE": 9,
+          "READ": 28,
+          "EXECUTE": 3,
+          "STOP": 3,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "dataexchange": {
+        "total_operations": 37,
+        "by_operation_type": {
+          "ACTION": 4,
+          "STOP": 1,
+          "CREATE": 5,
+          "DELETE": 5,
+          "READ": 15,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "mediapackage-vod": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "internetmonitor": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 9,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "iot-managed-integrations": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "CREATE": 12,
+          "DELETE": 8,
+          "READ": 29,
+          "ACTION": 2,
+          "EXECUTE": 1,
+          "UPDATE": 5
+        }
+      },
+      "workspaces-thin-client": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 3,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "mediastore-data": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 3,
+          "CREATE": 1
+        }
+      },
+      "serverlessrepo": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 1,
+          "READ": 6,
+          "ACTION": 1,
+          "UPDATE": 1
+        }
+      },
+      "lightsail": {
+        "total_operations": 161,
+        "by_operation_type": {
+          "ACTION": 12,
+          "ASSOCIATE": 5,
+          "COPY": 1,
+          "CREATE": 27,
+          "DELETE": 21,
+          "DISASSOCIATE": 4,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "TRANSFER": 2,
+          "READ": 65,
+          "UPDATE": 13,
+          "EXECUTE": 3,
+          "STOP": 3,
+          "TAG": 2,
+          "VALIDATE": 1
+        }
+      },
+      "events": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "ENABLE": 2,
+          "STOP": 1,
+          "CREATE": 11,
+          "DISABLE": 3,
+          "DELETE": 9,
+          "READ": 22,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 5
+        }
+      },
+      "quicksight": {
+        "total_operations": 209,
+        "by_operation_type": {
+          "ACTION": 6,
+          "STOP": 1,
+          "CREATE": 26,
+          "DELETE": 31,
+          "READ": 94,
+          "TRANSFER": 1,
+          "EXECUTE": 4,
+          "TAG": 2,
+          "UPDATE": 44
+        }
+      },
+      "kafka": {
+        "total_operations": 52,
+        "by_operation_type": {
+          "ACTION": 4,
+          "CREATE": 6,
+          "DELETE": 5,
+          "READ": 24,
+          "TAG": 2,
+          "UPDATE": 11
+        }
+      },
+      "shield": {
+        "total_operations": 36,
+        "by_operation_type": {
+          "ASSOCIATE": 4,
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 13,
+          "DISABLE": 2,
+          "DISASSOCIATE": 3,
+          "ENABLE": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "marketplace-entitlement": {
+        "total_operations": 1,
+        "by_operation_type": {
+          "READ": 1
+        }
+      },
+      "route53resolver": {
+        "total_operations": 68,
+        "by_operation_type": {
+          "ASSOCIATE": 4,
+          "CREATE": 10,
+          "DELETE": 7,
+          "DISASSOCIATE": 4,
+          "READ": 31,
+          "TRANSFER": 1,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "eks": {
+        "total_operations": 57,
+        "by_operation_type": {
+          "ASSOCIATE": 3,
+          "CREATE": 8,
+          "DELETE": 8,
+          "READ": 26,
+          "DISASSOCIATE": 2,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "networkflowmonitor": {
+        "total_operations": 25,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 11,
+          "EXECUTE": 3,
+          "STOP": 3,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "license-manager-linux-subscriptions": {
+        "total_operations": 11,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 6,
+          "CREATE": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "rds": {
+        "total_operations": 162,
+        "by_operation_type": {
+          "CREATE": 25,
+          "ACTION": 15,
+          "ENABLE": 2,
+          "STOP": 5,
+          "COPY": 5,
+          "DELETE": 27,
+          "READ": 46,
+          "DISABLE": 1,
+          "UPDATE": 23,
+          "PROMOTE": 2,
+          "TRANSFER": 6,
+          "EXECUTE": 5
+        }
+      },
+      "partnercentral-selling": {
+        "total_operations": 38,
+        "by_operation_type": {
+          "ACTION": 4,
+          "ASSOCIATE": 1,
+          "CREATE": 6,
+          "DELETE": 1,
+          "DISASSOCIATE": 1,
+          "READ": 18,
+          "EXECUTE": 3,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "route53profiles": {
+        "total_operations": 16,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "CREATE": 1,
+          "DELETE": 1,
+          "DISASSOCIATE": 2,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "ecs": {
+        "total_operations": 60,
+        "by_operation_type": {
+          "CREATE": 10,
+          "DELETE": 9,
+          "READ": 21,
+          "ACTION": 4,
+          "EXECUTE": 3,
+          "STOP": 2,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "bedrock": {
+        "total_operations": 59,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 13,
+          "DELETE": 9,
+          "READ": 28,
+          "STOP": 3,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "iotthingsgraph": {
+        "total_operations": 35,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 5,
+          "DELETE": 5,
+          "ACTION": 3,
+          "READ": 17,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "sesv2": {
+        "total_operations": 97,
+        "by_operation_type": {
+          "ACTION": 4,
+          "STOP": 1,
+          "CREATE": 35,
+          "DELETE": 11,
+          "READ": 37,
+          "TAG": 2,
+          "VALIDATE": 1,
+          "UPDATE": 6
+        }
+      },
+      "qbusiness": {
+        "total_operations": 77,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 4,
+          "STOP": 2,
+          "VALIDATE": 1,
+          "CREATE": 12,
+          "DELETE": 12,
+          "DISASSOCIATE": 1,
+          "READ": 31,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 10
+        }
+      },
+      "amplifybackend": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "COPY": 1,
+          "CREATE": 6,
+          "DELETE": 7,
+          "ACTION": 1,
+          "READ": 9,
+          "TRANSFER": 2,
+          "UPDATE": 5
+        }
+      },
+      "fms": {
+        "total_operations": 42,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 2,
+          "DELETE": 5,
+          "DISASSOCIATE": 2,
+          "READ": 23,
+          "CREATE": 6,
+          "TAG": 2
+        }
+      },
+      "iotsitewise": {
+        "total_operations": 90,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 6,
+          "CREATE": 13,
+          "DELETE": 10,
+          "READ": 41,
+          "DISASSOCIATE": 2,
+          "EXECUTE": 3,
+          "TAG": 2,
+          "UPDATE": 11
+        }
+      },
+      "chime": {
+        "total_operations": 62,
+        "by_operation_type": {
+          "ASSOCIATE": 2,
+          "ACTION": 12,
+          "CREATE": 9,
+          "DELETE": 5,
+          "DISASSOCIATE": 2,
+          "READ": 21,
+          "TRANSFER": 1,
+          "UPDATE": 10
+        }
+      },
+      "clouddirectory": {
+        "total_operations": 66,
+        "by_operation_type": {
+          "CREATE": 8,
+          "ACTION": 5,
+          "ASSOCIATE": 4,
+          "DELETE": 6,
+          "DISASSOCIATE": 4,
+          "DISABLE": 1,
+          "ENABLE": 1,
+          "READ": 28,
+          "TAG": 2,
+          "UPDATE": 5,
+          "PROMOTE": 2
+        }
+      },
+      "apigatewaymanagementapi": {
+        "total_operations": 3,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 1,
+          "ACTION": 1
+        }
+      },
+      "devops-guru": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 23,
+          "EXECUTE": 1,
+          "UPDATE": 3
+        }
+      },
+      "sagemaker-metrics": {
+        "total_operations": 2,
+        "by_operation_type": {
+          "ACTION": 2
+        }
+      },
+      "codeconnections": {
+        "total_operations": 27,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 13,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "mediapackage": {
+        "total_operations": 19,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 3,
+          "DELETE": 2,
+          "READ": 7,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "ssm-sap": {
+        "total_operations": 21,
+        "by_operation_type": {
+          "DELETE": 2,
+          "READ": 11,
+          "CREATE": 2,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "iam": {
+        "total_operations": 164,
+        "by_operation_type": {
+          "CREATE": 25,
+          "ASSOCIATE": 3,
+          "UPDATE": 17,
+          "DISABLE": 3,
+          "DELETE": 26,
+          "DISASSOCIATE": 3,
+          "ENABLE": 3,
+          "ACTION": 7,
+          "READ": 61,
+          "TAG": 16
+        }
+      },
+      "sagemaker-a2i-runtime": {
+        "total_operations": 5,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 2,
+          "EXECUTE": 1,
+          "STOP": 1
+        }
+      },
+      "vpc-lattice": {
+        "total_operations": 69,
+        "by_operation_type": {
+          "ACTION": 1,
+          "CREATE": 14,
+          "DELETE": 15,
+          "READ": 28,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "drs": {
+        "total_operations": 50,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "CREATE": 5,
+          "DELETE": 8,
+          "READ": 15,
+          "DISASSOCIATE": 2,
+          "TRANSFER": 1,
+          "ACTION": 3,
+          "EXECUTE": 5,
+          "STOP": 3,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "gameliftstreams": {
+        "total_operations": 24,
+        "by_operation_type": {
+          "CREATE": 4,
+          "ASSOCIATE": 1,
+          "DELETE": 4,
+          "DISASSOCIATE": 1,
+          "TRANSFER": 1,
+          "READ": 8,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 2
+        }
+      },
+      "guardduty": {
+        "total_operations": 74,
+        "by_operation_type": {
+          "ACTION": 6,
+          "CREATE": 8,
+          "DELETE": 8,
+          "READ": 32,
+          "DISABLE": 1,
+          "DISASSOCIATE": 3,
+          "ENABLE": 1,
+          "EXECUTE": 2,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 10
+        }
+      },
+      "meteringmarketplace": {
+        "total_operations": 4,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 1
+        }
+      },
+      "chime-sdk-media-pipelines": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 4,
+          "READ": 11,
+          "EXECUTE": 2,
+          "STOP": 2,
+          "TAG": 2,
+          "UPDATE": 3
+        }
+      },
+      "repostspace": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "ACTION": 3,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 3,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "health": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "READ": 12,
+          "DISABLE": 1,
+          "ENABLE": 1
+        }
+      },
+      "ds-data": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "CREATE": 3,
+          "DELETE": 3,
+          "READ": 8,
+          "DISABLE": 1,
+          "UPDATE": 2
+        }
+      },
+      "cognito-identity": {
+        "total_operations": 23,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 2,
+          "READ": 11,
+          "ACTION": 2,
+          "UPDATE": 3,
+          "TAG": 2,
+          "DISASSOCIATE": 2
+        }
+      },
+      "discovery": {
+        "total_operations": 28,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "ACTION": 2,
+          "CREATE": 2,
+          "DELETE": 2,
+          "READ": 11,
+          "DISASSOCIATE": 1,
+          "TRANSFER": 1,
+          "EXECUTE": 5,
+          "STOP": 2,
+          "UPDATE": 1
+        }
+      },
+      "omics": {
+        "total_operations": 96,
+        "by_operation_type": {
+          "ACTION": 4,
+          "STOP": 3,
+          "CREATE": 13,
+          "DELETE": 13,
+          "READ": 46,
+          "EXECUTE": 7,
+          "TAG": 2,
+          "UPDATE": 8
+        }
+      },
+      "finspace": {
+        "total_operations": 50,
+        "by_operation_type": {
+          "CREATE": 9,
+          "DELETE": 9,
+          "READ": 21,
+          "TAG": 2,
+          "UPDATE": 9
+        }
+      },
+      "iottwinmaker": {
+        "total_operations": 40,
+        "by_operation_type": {
+          "ACTION": 1,
+          "STOP": 1,
+          "CREATE": 6,
+          "DELETE": 5,
+          "EXECUTE": 1,
+          "READ": 19,
+          "TAG": 2,
+          "UPDATE": 5
+        }
+      },
+      "applicationcostprofiler": {
+        "total_operations": 6,
+        "by_operation_type": {
+          "DELETE": 1,
+          "READ": 2,
+          "TRANSFER": 1,
+          "CREATE": 1,
+          "UPDATE": 1
+        }
+      },
+      "panorama": {
+        "total_operations": 34,
+        "by_operation_type": {
+          "CREATE": 7,
+          "DELETE": 4,
+          "READ": 19,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "s3": {
+        "total_operations": 102,
+        "by_operation_type": {
+          "ACTION": 6,
+          "COPY": 1,
+          "CREATE": 33,
+          "DELETE": 18,
+          "READ": 43,
+          "TRANSFER": 1
+        }
+      },
+      "glue": {
+        "total_operations": 253,
+        "by_operation_type": {
+          "ACTION": 21,
+          "STOP": 11,
+          "VALIDATE": 2,
+          "CREATE": 34,
+          "DELETE": 32,
+          "READ": 107,
+          "TRANSFER": 1,
+          "UPDATE": 28,
+          "EXECUTE": 15,
+          "TAG": 2
+        }
+      },
+      "socialmessaging": {
+        "total_operations": 13,
+        "by_operation_type": {
+          "ASSOCIATE": 1,
+          "DELETE": 1,
+          "DISASSOCIATE": 1,
+          "READ": 5,
+          "ACTION": 2,
+          "CREATE": 1,
+          "TAG": 2
+        }
+      },
+      "iotanalytics": {
+        "total_operations": 34,
+        "by_operation_type": {
+          "ACTION": 2,
+          "STOP": 1,
+          "CREATE": 6,
+          "DELETE": 5,
+          "READ": 12,
+          "EXECUTE": 2,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "application-signals": {
+        "total_operations": 17,
+        "by_operation_type": {
+          "ACTION": 2,
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 9,
+          "EXECUTE": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "iotdeviceadvisor": {
+        "total_operations": 14,
+        "by_operation_type": {
+          "CREATE": 1,
+          "DELETE": 1,
+          "READ": 7,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 1
+        }
+      },
+      "codebuild": {
+        "total_operations": 59,
+        "by_operation_type": {
+          "ACTION": 12,
+          "CREATE": 5,
+          "DELETE": 8,
+          "READ": 20,
+          "TRANSFER": 1,
+          "EXECUTE": 5,
+          "STOP": 3,
+          "UPDATE": 5
+        }
+      },
+      "supplychain": {
+        "total_operations": 30,
+        "by_operation_type": {
+          "CREATE": 5,
+          "DELETE": 4,
+          "READ": 14,
+          "ACTION": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "migrationhuborchestrator": {
+        "total_operations": 31,
+        "by_operation_type": {
+          "CREATE": 4,
+          "DELETE": 4,
+          "READ": 14,
+          "ACTION": 1,
+          "EXECUTE": 1,
+          "STOP": 1,
+          "TAG": 2,
+          "UPDATE": 4
+        }
+      },
+      "lambda": {
+        "total_operations": 68,
+        "by_operation_type": {
+          "CREATE": 13,
+          "DELETE": 12,
+          "READ": 29,
+          "EXECUTE": 3,
+          "ACTION": 2,
+          "TAG": 2,
+          "UPDATE": 7
+        }
+      }
+    }
+  },
+  "gcp": {
+    "total_services": 0,
+    "total_operations": 0,
+    "by_operation_type": {},
+    "services": {}
+  }
+}
