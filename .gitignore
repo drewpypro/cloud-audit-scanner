@@ -10,6 +10,7 @@ archive/
 *.tfstate
 *.tfstate.*
 
+creds.json
 cloned_repos/
 errors.txt
 git_audit_config.json
